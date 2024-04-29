@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+
+section, .footer {
+    padding-top: 6%;
+}
+
+
+body {
+    color: rgb(83, 83, 83);
+    font-family: 'Bai Jamjuree', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+.content {
+    display: inline-block;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1, h2, p{
+    padding-bottom: 2%;
+}
+h3 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+p {
+    color: rgb(153, 153, 153);
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo-header {
+    margin-bottom: 5%;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 img {
+    flex: 1;
+    width: 1%;
+    margin-left: 5%;
+}
+.texts {
+    flex: 1;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.subtext {
+    padding-bottom: 5%;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-1 img {
+    width: 90%;
+}
+.content-1 {
+    display: inline-block;
+    text-align: center;
+}
+.content-1 p {
+    margin-bottom: 1%;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.section-5 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.subsection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subsection img {
+    width: 6%;
+}
+.text-sub {
+    text-align: center;
+}
+.text-sub {
+    margin-top: 4%;
+}
+.s3 {
+    margin-top: 2%;
+}
+.section-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+.secction-6 img {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    width: 18%;
+}
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: none;
+    border-radius: 32px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.buttons{
+    display: flex;
+    padding: 2%;
+}
+
+.coo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer {
+    background-color: hsl(0, 0%, 89%);
+    padding: 2%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.right {
+    display: flex;
+}
+.sub {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.right img {
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.logo-footer {
+    width: 8%;
+    margin-right: 20%;
+
+}
